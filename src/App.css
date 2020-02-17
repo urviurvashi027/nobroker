@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+
+/* import 'bootstrap/dist/css/bootstrap.min.css'; */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.text-align-l{
+  text-align: left;
+}
+
+.text-align-r{
+  text-align: right;
+}
+
+.title{
+  margin-bottom: 11px;
+
+}
+
+.Header{
+  background-color: #FD0187;
+  color: white;
+  margin: 0px;
+  height: 7vh;
+  /* margin-top: -16px; */
+}
+
+.posts-main{
+  background-color: #FEF3F9;
+  margin: 5px 10px 10px 5px;
+  float: left;
+  width: 100%;
+}
+
+.pages{
+  color: black;
+}
+
+.filter-margin{
+  margin-top: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 10px 10px 10px 2px;
+  min-height: 35vh;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+.reset-btn{
+  background-color: white;
+  color: #009900;
+  outline: none;
+  border: 1px solid #009900;
+}
+
+.filterblock{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.filterpanel{
+  width: 100%;
+  min-height: 15vh;
+}
+
+.Font-normal{
+  font-size: 13px;
+}
+
+.headingColor{
+  color:#009900;
+  font-weight: 900;
+  font-size: 1.0rem;
+}
+
+.main-page{
+  background-color: #eee;
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eee;
+  color: white;
+  text-align: center;
+}
+
+.nav{
+  margin: 0px;
+  height: 7vh;
+}
+
+.nav li{
+  display: inline;
+  color:white;
+}
+
+.nav li a{
+  color:white;
+  text-decoration: none;
+  float: left;
+  display: block;
+  height: 100%;
+  padding: 10px 20px 10px 10px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
